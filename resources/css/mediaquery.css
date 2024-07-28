@@ -1,0 +1,246 @@
+/* --------------------media query part-------------------- */
+
+@media only screen and (max-width:1200px){
+    .logo{
+        height: 80px;
+        margin-left: 45px;
+    }
+    .main-nav{
+        margin-right: 55px;
+    }
+    .hero-text-box{
+        margin-left: 85px;
+    }
+    
+}
+
+@media only screen and (max-width:1050px){
+    .hero-text-box{
+        margin-left: 195px;
+    }
+
+}
+
+@media only screen and (max-width:900px){
+    h1{
+        font-size: 120%;
+
+    }
+    .hero-text-box{
+        left: 70%;
+    }
+
+    .main-nav{
+        display: none;
+        float: left;
+        clear: both;
+        z-index: 1;
+        background-color: #333;
+        height: 100vh;
+        position: relative;
+        border: 2px solid #333;
+        top: -156px;
+        left: -36px;
+        list-style: none;
+        margin-top: 55px; 
+        margin-right:95px ;
+        padding-top: 25px;
+        transition: ease;
+    }
+    
+    .main-nav li{
+        display: block;
+        border-bottom: 1px solid #555;
+        padding: 20px;
+        padding-left: 35px;
+        width: 250px;
+    }
+
+    .main-nav li a:hover{
+        border: none;
+        color: #e67e22;
+        font-weight: 500;
+    }
+
+    .toggle-btn{
+        display: block;
+        float: right;
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        font-size:30px;
+        cursor:pointer;
+        z-index: 2;
+    }
+
+    .close-btn{
+        display: block;
+        text-decoration: none;
+        font-size: 200%;
+        margin-right: 10px;
+        font-weight: 500px;
+    }
+
+    .close-btn:hover{
+        color: #e67e22;
+    }
+    
+    .section-cities{
+        margin-top: 200px;
+        height: auto;
+    }
+
+    .city-box{
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        margin-left: 5;
+    }
+
+    .city-box img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }    
+    
+    .city-container{
+        margin:7px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .city-container h3{
+        margin: auto;
+    }
+    
+    
+    .city-feature{
+        display: flex;
+        align-items: center;
+        margin-left: 20%;
+        margin-bottom: 15px;
+    }
+
+    .section-testimonials{
+        height: 1000px;
+    }
+
+
+    .review-card-box{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+
+    .section-plans{
+        height: 1500px;
+
+    }
+
+
+    .plans-container{
+        flex-direction: column;
+
+    }
+
+    
+
+    .plans-cards{
+        width: 50%;
+        margin: 15px auto 15px auto;
+    }
+
+    footer{
+        margin-top: 80px;
+    }
+}
+
+
+
+@media only screen and (max-width:600px){
+    
+    .mobile-photo{
+        width: 150px;
+        height: auto;
+        margin-top: 100px;
+    }
+    .work-step p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .section-plans{
+        height: 1650px;
+    }
+
+    .section-features{
+        margin-bottom: 55px;
+    }
+
+    .section-meals{
+        margin-top: 200px;
+        display: flex;
+        height: 850px;
+    }
+
+    .meals-showcase{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        width: 100%;
+        height: auto;
+    }
+    
+    .meals-showcase li{
+        width: 100%;
+    }
+    
+    .meal-photo{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+        transition: transform 0.5s, opacity 0.5s;
+    }
+    .section-features{
+        height: 1150px;
+
+    }
+    .second-row{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .second-row p{
+        width: 80%;
+        margin: auto;
+    }
+
+    footer{
+        margin-top: 100px;
+        height: 200px;
+    }
+
+    .first-footer-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+    .footer-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-link{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
